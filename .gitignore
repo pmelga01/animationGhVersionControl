@@ -1,0 +1,42 @@
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+
+# --- Blender ---
+# Result .blend file of tests will start with a .
+.*.blend
+*.blend1
+*.blend2
+*.python_history
+/render/
+/cache/
+tools/config/bookmarks.txt
+tools/config/platform_support.txt
+# Ignore physics/fluid simulations (these are massive)
+*.bphys
+/blendcache_*/
+
+# Ignore all common render formats
+*.png
+*.jpg
+*.exr
+*.mp4
+*.mov
+
+# --- Adobe Premiere Pro ---
+# Ignore the entire auto-save folder (keep it local)
+Adobe\ Premiere\ Pro\ Auto-Save/
+# Ignore preview files and media cache
+Adobe\ Premiere\ Pro\ Video\ Previews/
+Adobe\ Premiere\ Pro\ Audio\ Previews/
+Media\ Cache/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
