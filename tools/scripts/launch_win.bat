@@ -8,6 +8,7 @@ set "BLENDER_USER_SCRIPTS=%REPO_ROOT%tools\scripts"
 :: Search common Steam installation paths
 set "STEAM_C=C:\Program Files (x86)\Steam\steamapps\common\Blender\blender.exe"
 set "STEAM_D=D:\SteamLibrary\steamapps\common\Blender\blender.exe"
+set "BLENDER_EXE=C:\Program Files\Blender Foundation\Blender 4.5\blender.exe"
 
 echo Launching Project Blender via Steam (LTS)...
 if exist "%STEAM_C%" (
@@ -15,6 +16,9 @@ if exist "%STEAM_C%" (
     exit
 ) else if exist "%STEAM_D%" (
     start "" /b "%STEAM_D%"
+    exit
+) else if exist "%BLENDER_EXE%" (
+    start "" /b "%BLENDER_EXE%"
     exit
 ) else (
     echo [ERROR] Blender not found.
