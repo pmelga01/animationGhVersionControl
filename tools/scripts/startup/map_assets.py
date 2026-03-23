@@ -71,14 +71,14 @@ def sync_project_paths():
             for lib in prefs.asset_libraries:
                 if lib.name == folder_name:
                     lib.path = full_path
-                    lib.import_method = 'LINK' 
+                    lib.import_method = 'APPEND' 
                     found = True
                     break
             if not found:
                 bpy.ops.preferences.asset_library_add(directory=full_path)
                 new_lib = prefs.asset_libraries[-1]
                 new_lib.name = folder_name
-                new_lib.import_method = 'LINK'
+                new_lib.import_method = 'APPEND'
 
     print(f"DEBUG: Startup sync complete for {project_root}")
 

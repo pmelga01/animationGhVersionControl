@@ -18,6 +18,7 @@ __pycache__/
 /cache/
 tools/config/bookmarks.txt
 tools/config/platform_support.txt
+tools/config/recent-files.txt
 # Ignore physics/fluid simulations (these are massive)
 *.bphys
 /blendcache_*/
