@@ -1,3 +1,5 @@
+D:\GameheadsAnimation\project\animationGhVersionControl\assets\props\Calendar_Skateboarder.blend
+D:\GameheadsAnimation\project\animationGhVersionControl\assets\props\Boxes.blend
 G:\Shared drives\AnimationDrive\shared\assets\Plants\Plants_Nature.blend
 D:\GameheadsAnimation\project\animationGhVersionControl\assets\props\Phone_BMX.blend
 C:\GameheadsAnimation\project\animationGhVersionControl\shots\_template\TEMP_shot_template.blend
