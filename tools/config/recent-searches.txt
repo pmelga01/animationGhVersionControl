@@ -1,0 +1,20 @@
+Shader ▸ Emission
+Converter ▸ Mix
+ 0 Flower.png
+Texture ▸ Image Texture
+Input ▸ Geometry ▸ Normal
+Input ▸ Geometry
+Input ▸ Texture Coordinate
+   Cloud (1).png
+Input ▸ Object Info ▸ Alpha
+Shader ▸ Transparent BSDF
+Color ▸ Mix Color ▸ Mix
+Shader ▸ Diffuse BSDF
+Shader ▸ Mix Shader
+Converter ▸ Shader to RGB
+Converter ▸ Color Ramp
+ParticleSystem
+  Geometry Nodes.003
+  Geometry Nodes.002
+  Geometry Nodes.001
+  Camera
