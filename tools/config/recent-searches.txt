@@ -18,3 +18,7 @@ ParticleSystem
   Geometry Nodes.002
   Geometry Nodes.001
   Camera
+Generate ▸ Mirror
+  Bfont Regular.001
+  Bfont Regular
+   Material.001
